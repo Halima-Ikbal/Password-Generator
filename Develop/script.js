@@ -1,12 +1,27 @@
 // Assignment code here
 function generatePassword () {
-  var uppercaseCharacter = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',];
+  var uppercaseCharacter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  var lowercaseCharacter =['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',];
+  var lowercaseCharacter ="abcdefghijklmnopqrstuvwxyz";
 
-  var numericChatarcter = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  var numericChatarcter = "0123456789";
 
-  var specialCharacter = [ '!', '"', '#', '$', '%', '&', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '\', '^', '_ ', ' ` ', '{', '|', '}', '~', ]
+  var specialCharacter = "!#$%&)*+-./:;<=>?@\^ _`({'| } ~, ]";
+
+  var passwordLength;
+  var uppercaseCheck;
+  var numberCheck;
+  var specialCheck;
+
+  //Function used to determine the lenght of the password
+  function determineLength() {
+    passwordLength = prompt ("Choose how many characters long you'd like your password to be (between 8-128 characters): ");
+
+      if (passwordLength<8){
+        alert("Password length must be a between 8-128 characters");
+        determineLength();
+      }
+  }
 }
 
 

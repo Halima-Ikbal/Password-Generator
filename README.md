@@ -20,4 +20,4 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page 
 # Screenshot of Password Generator 
-![password generator] (develop/image/2022-05-21.png)
+![password generator] (https://github.com/Halima-Ikbal/Password-Generator/blob/main/Develop/image/2022-05-21.png)

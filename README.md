@@ -12,7 +12,7 @@ I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 
 # Website
-https://lernantino.github.io/run-buddy/
+(https://password-generator-eta-bay.vercel.app/)
 
 # Build with 
 * HTML
